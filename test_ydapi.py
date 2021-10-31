@@ -12,7 +12,7 @@ class TestYandexDisk(unittest.TestCase):
         """
         Setup a YaDloader
         """
-        token_yd = 'AQAAAAAWeXHCAADLW1Rvdth_E0JVmUb4Eg3aR5E'
+        token_yd = '...'
         self.uploader = ydapi.YaUploader(token_yd)
 
     def test_set_dest_path(self):
